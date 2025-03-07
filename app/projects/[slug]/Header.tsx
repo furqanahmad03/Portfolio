@@ -38,7 +38,7 @@ export const Header: React.FC<Props> = ({ project }) => {
 
   return (
     <header className="z-40 bg-transparent py-5 md:py-10">
-      <div className="mx-auto flex max-w-5xl items-center justify-between">
+      <div className="mx-auto flex max-w-6xl items-center justify-between">
         <Link href="/projects" className="ml-1 mr-1 h-8 w-8 rounded p-1">
           <BsArrowLeft className="w-6 h-6 " />
         </Link>

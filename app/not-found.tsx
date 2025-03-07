@@ -2,8 +2,6 @@ import SectionContainer from "@/components/SectionContainer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-// TODO: Comment out when https://github.com/vercel/next.js/issues/50566 is fixed.
-
 export const metadata = {
   title: "404 - Furqan Ahmad",
   description: "Not Found - Furqan Ahmad",

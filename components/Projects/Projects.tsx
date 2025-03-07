@@ -17,10 +17,10 @@ export default function Projects() {
                   <BsEye className="w-4 h-4" />{" "}
                 </span>
               </div>
-              <h2 className="mt-4 text-3xl font-bold group-hover:text-white sm:text-4xl font-display">
+              <h2 className="mt-4 text-3xl font-bold sm:text-4xl font-display">
                 {projects[0].title}
               </h2>
-              <p className="mt-4 leading-8 duration-150 group-hover:text-white">
+              <p className="mt-4 leading-8 duration-150">
                 {projects[0].brief}
               </p>
             </article>

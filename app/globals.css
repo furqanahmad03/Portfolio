@@ -73,7 +73,7 @@ html::-webkit-scrollbar {
 
 .horizontal-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent), linear-gradient(#ae1ee0, #ae1ee0);
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#2563eb, #1d4ed8);
   background-size: 0 3px;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -85,6 +85,10 @@ html::-webkit-scrollbar {
   background-position: 0 100%;
 }
 
+.horizontal-underline-active {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
 
 
 
@@ -104,3 +108,55 @@ html::-webkit-scrollbar {
   }
 }
 
+
+.tech-card:hover .tech-icon {
+  color: var(--hover-color);
+}
+
+.tech-card:hover .tech-icon {
+  transform: scale(1.1);
+}
+
+.tech-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .tech-stack-section {
+    padding: 2rem 1rem;
+  }
+
+  .tech-stack-heading {
+    font-size: 2rem;
+  }
+
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+
+  .tech-icon {
+    font-size: 2rem;
+  }
+
+  .category-heading {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tech-card {
+    padding: 1rem;
+  }
+
+  .tech-name {
+    font-size: 0.9rem;
+  }
+}

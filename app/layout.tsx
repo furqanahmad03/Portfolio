@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { Inter as FontSans } from "next/font/google";
+import "./globals.css";
 
-import { cn } from "@/lib/utils";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import LenisProvider from "@/components/Providers/LenisProvider";
 import { ThemeProvider } from "@/components/Providers/ThemeProvider";
+import { cn } from "@/lib/utils";
 import og from "@/public/og.png";
 
 export const fontSans = FontSans({
@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "Furqan Ahmad | Portfolio",
   description:
     "Building the future with creativity and caffeine. Join me on this exciting digital journey.",
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     title: "Furqan Ahmad | Portfolio",
     description: "Building the future with creativity and caffeine. Join me on this exciting digital journey.",

@@ -7,5 +7,14 @@ interface Props {
 }
 
 export default function LenisProvider({ children }: Props) {
-  return <ReactLenis root>{children}</ReactLenis>;
+  return <ReactLenis root
+  options={{
+    smooth: true,
+    duration: 0.05,
+    easing: (t:any) => t,
+    smoothTouch: false,
+    direction: "vertical",
+    gestureDirection: "vertical",
+  }}
+  >{children}</ReactLenis>;
 }

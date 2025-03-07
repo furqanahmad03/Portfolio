@@ -1,0 +1,58 @@
+export const certifications = [
+  {
+    title: "Agentic AI and AI Agents: A Primer for Leaders",
+    issuer: "Vanderbilt University",
+    issueDate: "February 2025",
+    credentialID: "LHKZO1IAGTRK",
+    credentialURL: "https://www.coursera.org/account/accomplishments/verify/LHKZO1IAGTRK",
+  },
+  {
+    title: "Advanced React",
+    issuer: "Meta",
+    issueDate: "February 2025",
+    credentialID: "2ZHPA9JC4GIA",
+    credentialURL: "https://www.coursera.org/account/accomplishments/records/2ZHPA9JC4GIA",
+  },
+  {
+    title: "React Basics",
+    issuer: "Meta",
+    issueDate: "January 2025",
+    credentialID: "1L1IHPYV1553",
+    credentialURL: "https://coursera.org/share/5773f0c232aa1ec7faaac7d14612dbcc",
+  },
+  {
+    title: "AI For Everyone",
+    issuer: "DeepLearning.AI",
+    issueDate: "January 2025",
+    credentialID: "MKJF83NU6BLJ",
+    credentialURL: "https://coursera.org/share/2834ffbd652dd3c8712b93a9e6021ee1",
+  },
+  {
+    title: "CS50's Introduction to Programming with Python",
+    issuer: "Harvard University",
+    issueDate: "January 2025",
+    credentialID: "8e762b4a-30c7-4d9a-bda2-62b732253fac",
+    credentialURL: "https://cs50.harvard.edu/certificates/8e762b4a-30c7-4d9a-bda2-62b732253fac",
+  },
+  {
+    title: "Build Your Own GPTs",
+    issuer: "LinkedIn Learning",
+    issueDate: "Novermber 2024",
+    credentialID: "",
+    credentialURL: "https://www.linkedin.com/learning/certificates/0665b301278bb5b2a4435d6bc930d810b5bcdef72995f2275ec560ade024e43e",
+  },
+  {
+    title: "Exploring Emerging Technologies for Lifelong Learning and Success",
+    issuer: "The State University of New York",
+    issueDate: "January 2024",
+    credentialID: "3A6NFWBE3VWT",
+    credentialURL: "https://www.coursera.org/account/accomplishments/records/3A6NFWBE3VWT",
+  },
+  {
+    title: "Web Development with React and Node.js",
+    issuer: "YETP, Lahore",
+    issueDate: "November 2023",
+    credentialID: "",
+    credentialURL: "",
+  },
+];

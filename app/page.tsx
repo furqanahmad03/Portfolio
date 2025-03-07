@@ -5,10 +5,10 @@ import { ScrollProvider } from "@/components/Providers/ScrollProvider";
 
 export default function Home() {
   return (
-    <ScrollProvider>
+    <div>
       <Hero />
       <Intro />
       <GithubContribution />
-    </ScrollProvider>
+    </div>
   );
 }

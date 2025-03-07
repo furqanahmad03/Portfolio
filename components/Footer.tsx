@@ -13,51 +13,51 @@ export default function Footer() {
         <div className="mb-0 flex flex-col justify-start space-y-1.5 space-x-0 py-10 text-black dark:text-gray-400">
           <div className="flex flex-col items-center space-x-2 text-sm sm:flex-row sm:justify-between sm:text-base">
             <ul className="flex space-x-2">
-              <li> {`© ${new Date().getFullYear()}`} </li>
+              <li> © 2025 </li>
               <li>{` • `}</li>
-              <li>
+              <li className="transform transition-transform duration-200 ease-out hover:scale-110">
                 <Link href="/"> {social.title} </Link>
               </li>
             </ul>
-            <ul className="flex cursor-pointer items-center space-x-5">
-              <li>
+            <ul className="flex cursor-pointer items-center space-x-5 mt-4 sm:mt-0">
+              <li className="transform transition-transform duration-200 ease-out hover:scale-125">
                 <a
                   href={social.linkedin}
                   rel="noreferer"
                   target="_blank"
                   aria-label="linkedIn"
                 >
-                  <AiFillLinkedin className="sm:text-lg" />
+                  <AiFillLinkedin className="sm:text-2xl" />
                 </a>
               </li>
-              <li>
+              <li className="transform transition-transform duration-200 ease-out hover:scale-125">
                 <a
                   href={social.github}
                   target="_blank"
                   rel="noreferrer"
                   aria-label="github"
                 >
-                  <FaGithub className="sm:text-lg" />
+                  <FaGithub className="sm:text-xl" />
                 </a>
               </li>
-              <li>
+              <li className="transform transition-transform duration-200 ease-out hover:scale-125">
                 <a
                   href={social.email}
                   target="_blank"
                   rel="noreferrer"
                   aria-label="spotify"
                 >
-                  <IoMail className="sm:text-lg" />
+                  <IoMail className="sm:text-2xl" />
                 </a>
               </li>
-              <li>
+              <li className="transform transition-transform duration-200 ease-out hover:scale-125">
                 <a
                   href={social.facebook}
                   target="_blank"
                   rel="noreferrer"
                   aria-label="facebook"
                 >
-                  <AiFillFacebook className="sm:text-lg" />
+                  <AiFillFacebook className="sm:text-xl" />
                 </a>
               </li>
             </ul>
