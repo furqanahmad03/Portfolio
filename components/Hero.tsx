@@ -18,9 +18,9 @@ export default function Hero(): ReactElement {
     progress = Math.min(1, scrollY / elContainer.clientHeight);
   }
 
-  // useEffect(() => {
-  //   renderCanvas();
-  // }, []);
+  useEffect(() => {
+    renderCanvas();
+  }, []);
 
   return (
     <div>

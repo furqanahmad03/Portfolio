@@ -1,7 +1,7 @@
 const social = {
   title: "Furqan Ahmad",
   author: "Furqan Ahmad",
-  // headerTitle: "mohamedboukthir",
+  // headerTitle: "furqanahmad",
   description: "Software Developer",
   language: "en-us",
   theme: "dark", // system, dark or light
