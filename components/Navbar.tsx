@@ -19,7 +19,7 @@ export default function Navbar() {
           <div>
             <Link
               href="/"
-              className={classNames("hidden text-3xl font-extrabold sm:block", {
+              className={classNames("md:text-3xl font-extrabold block text-2xl", {
                 "": pathName === "/",
               })}
               aria-label="Logo"
