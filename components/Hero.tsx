@@ -32,25 +32,25 @@ export default function Hero(): ReactElement {
         <div className="mx-auto w-screen max-w-4xl px-4 sm:px-9 xl:max-w-6xl xl:px-0">
           <div className="-mt-10 md:-mt-20">
             <div ref={ref} className="flex flex-col space-y-2">
-              <h1 className="text-5xl font-semibold sm:text-5xl md:text-6xl xl:text-[4rem]">
+              <h1 className="text-5xl font-semibold sm:text-5xl md:text-6xl xl:text-[4rem] animate-fade-in-up">
                 Furqan Ahmad
               </h1>
-              <h2 className="text-3xl font-medium opacity-80 sm:text-5xl md:text-5xl xl:text-5xl xl:leading-[3.5rem] text-justify ">
+              <h2 className="text-3xl font-medium opacity-80 sm:text-5xl md:text-5xl xl:text-5xl xl:leading-[3.5rem] text-justify animate-fade-in-up">
                 Software developer, I love learning about new tech and using it to make good
                 software.
               </h2>
               <Link
                 href="/about"
-                className="!mt-4 horizontal-underline text-md w-max mb-9 cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
+                className="!mt-4 horizontal-underline text-md w-max mb-9 cursor-pointer sm:text-lg md:text-xl xl:text-2xl animate-fade-in-up"
               >
                 Read more about me &rarr;
               </Link>
             </div>
             <motion.div
-              animate={{
-                transform: `translateY(${progress * 10}vh)`,
-              }}
-              className="absolute bottom-4 left-1/2 -translate-x-1/2 transform md:bottom-8"
+              // animate={{
+              //   transform: `translateY(${progress * 10}vh)`,
+              // }}
+              className="absolute bottom-4 left-1/2 -translate-x-1/2 transform md:bottom-8 animate-fade-in-up"
             >
               <div
                 role="presentation"
