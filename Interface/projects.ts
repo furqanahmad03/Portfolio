@@ -5,7 +5,7 @@ export interface Project {
   title: string;
   brief: string;
   description: string;
-  image?: StaticImageData;
+  images?: string[];
   url?: string;
   repository: string;
   stack: string[];

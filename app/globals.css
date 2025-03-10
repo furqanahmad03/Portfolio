@@ -73,12 +73,27 @@ html::-webkit-scrollbar {
 
 .horizontal-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent), linear-gradient(#2563eb, #1d4ed8);
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#17770e, #51b333);
   background-size: 0 3px;
   background-position: 0 100%;
   background-repeat: no-repeat;
   transition: background-size 0.5s ease-in-out;
 }
+
+.horizontal-underline-white {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#ffffff, #c8c8c8);
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.horizontal-underline-white:hover {
+  background-size: 100% 1px;
+  background-position: 0 100%;
+}
+
 
 .horizontal-underline:hover {
   background-size: 100% 3px;

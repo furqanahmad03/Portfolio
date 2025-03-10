@@ -72,9 +72,9 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
           <Navbar />
-          <LenisProvider>
+          {/* <LenisProvider> */}
             <main>{children}</main>
-          </LenisProvider>
+          {/* </LenisProvider> */}
           <Footer />
         </ThemeProvider>
       </body>

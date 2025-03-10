@@ -1,6 +1,4 @@
 import { Project } from "@/Interface/projects";
-import weatherForecastImage from "../public/weather-forecast.png";
-import weatherAppImage from "../public/weather-app.png";
 
 export const projects: Project[] = [
   {
@@ -9,7 +7,10 @@ export const projects: Project[] = [
     brief: "Developed an issue-tracking application using Next.js and TypeScript, featuring user authentication and a dashboard with visual charts like pie and bar graphs. The app enables users to create, edit, assign, and categorize issues as OPEN, IN_PROGRESS, or CLOSED. It uses MySQL for data management, ensuring reliable storage and seamless data handling.",
     description:
       "A web application that helps you to organize your issues.",
-    image: weatherAppImage,
+    images: [
+      "weather-app.png",
+      "weather-forecast.png",
+    ],
     stack: [
       "HTML",
       "CSS",
@@ -31,7 +32,10 @@ export const projects: Project[] = [
     brief: "Developed a Java-based online grocery store with user authentication, product management, and order tracking. Features include admin and customer login, product search, cart management, order placement, and session handling. Admins manage products, while customers browse, add to cart, and track orders.",
     description:
       "A grocery store with all the functionalities of User and Admin tasks.",
-    image: weatherAppImage,
+    images: [
+      "weather-app.png",
+      "weather-forecast.png",
+    ],
     stack: [
       "HTML",
       "CSS",
@@ -48,7 +52,10 @@ export const projects: Project[] = [
     brief: "Developed a weather app with enhanced UI to display every sort of information regarding weather. Developed using HTML, CSS, Tailwind and JavaScript. The app displays current weather conditions and stores previous searches for easy comparison.",
     description:
       "A platform for searching the current weather.",
-    image: weatherAppImage,
+    images: [
+      "weather-app.png",
+      "weather-forecast.png",
+    ],
     stack: [
       "HTML",
       "CSS",
@@ -64,7 +71,10 @@ export const projects: Project[] = [
     brief: "Developed a weather app using HTML, CSS, Tailwind and JavaScript. The app displays current weather conditions and stores previous searches for easy comparison.",
     description:
       "A platform for searching the current weather.",
-    image: weatherForecastImage,
+    images: [
+      "weather-app.png",
+      "weather-forecast.png",
+    ],
     stack: [
       "HTML",
       "CSS",

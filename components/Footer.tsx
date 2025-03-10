@@ -20,44 +20,44 @@ export default function Footer() {
               </li>
             </ul>
             <ul className="flex cursor-pointer items-center space-x-5 mt-4 sm:mt-0">
-              <li className="transform transition-transform duration-200 ease-out hover:scale-125">
+              <li className="transform transition-transform duration-200 ease-out hover:scale-125 hover:text-[#0078D7]">
                 <a
                   href={social.linkedin}
                   rel="noreferer"
                   target="_blank"
                   aria-label="linkedIn"
                 >
-                  <AiFillLinkedin className="sm:text-2xl" />
+                  <AiFillLinkedin className="sm:text-2xl text-xl" />
                 </a>
               </li>
-              <li className="transform transition-transform duration-200 ease-out hover:scale-125">
+              <li className="transform transition-transform duration-200 ease-out hover:scale-125 hover:text-[#6E5494]">
                 <a
                   href={social.github}
                   target="_blank"
                   rel="noreferrer"
                   aria-label="github"
                 >
-                  <FaGithub className="sm:text-xl" />
+                  <FaGithub className="sm:text-xl text-lg" />
                 </a>
               </li>
-              <li className="transform transition-transform duration-200 ease-out hover:scale-125">
+              <li className="transform transition-transform duration-200 ease-out hover:scale-125 hover:text-[#D14836]">
                 <a
                   href={social.email}
                   target="_blank"
                   rel="noreferrer"
                   aria-label="spotify"
                 >
-                  <IoMail className="sm:text-2xl" />
+                  <IoMail className="sm:text-2xl text-xl" />
                 </a>
               </li>
-              <li className="transform transition-transform duration-200 ease-out hover:scale-125">
+              <li className="transform transition-transform duration-200 ease-out hover:scale-125 hover:text-[#1877F2]">
                 <a
                   href={social.facebook}
                   target="_blank"
                   rel="noreferrer"
                   aria-label="facebook"
                 >
-                  <AiFillFacebook className="sm:text-xl" />
+                  <AiFillFacebook className="sm:text-2xl text-xl" />
                 </a>
               </li>
             </ul>

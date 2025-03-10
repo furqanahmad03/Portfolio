@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import me from "../../public/me.jpg";
 import SectionContainer from "../SectionContainer";
 import TechStack from "../TechStack";
+import Certifications from "../Certifications";
 
 export default function About() {
 
@@ -65,13 +66,13 @@ export default function About() {
                     <div className="flex justify-center md:justify-start space-x-4 mt-4">
                       <Link
                         href="/projects"
-                        className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
+                        className="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition"
                       >
                         My Projects
                       </Link>
                       <Link
                         href="/contact"
-                        className="px-6 py-2 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-600 hover:text-white transition"
+                        className="px-6 py-2 border border-green-600 text-green-600 rounded-md hover:bg-green-600 hover:text-white transition"
                       >
                         Contact Me
                       </Link>
@@ -111,6 +112,7 @@ export default function About() {
 
 
           <TechStack />
+          <Certifications />
         </div>
       </div>
     </SectionContainer>
