@@ -8,8 +8,11 @@ export const projects: Project[] = [
     description:
       "A web application that helps you to organize your issues.",
     images: [
-      "weather-app.png",
-      "weather-forecast.png",
+      "issue-1.png",
+      "issue-2.png",
+      "issue-3.png",
+      "issue-4.png",
+      "issue-5.png",
     ],
     stack: [
       "HTML",
@@ -28,13 +31,19 @@ export const projects: Project[] = [
   },
   {
     slug: "grocery-store",
-    title: "Grocery Store",
+    title: "Java Grocery Store",
     brief: "Developed a Java-based online grocery store with user authentication, product management, and order tracking. Features include admin and customer login, product search, cart management, order placement, and session handling. Admins manage products, while customers browse, add to cart, and track orders.",
     description:
       "A grocery store with all the functionalities of User and Admin tasks.",
     images: [
-      "weather-app.png",
-      "weather-forecast.png",
+      "grocery-store-1.png",
+      "grocery-store-2.png",
+      "grocery-store-3.png",
+      "grocery-store-4.png",
+      "grocery-store-5.png",
+      "grocery-store-6.png",
+      "grocery-store-7.png",
+      "grocery-store-8.png",
     ],
     stack: [
       "HTML",
@@ -53,8 +62,8 @@ export const projects: Project[] = [
     description:
       "A platform for searching the current weather.",
     images: [
-      "weather-app.png",
-      "weather-forecast.png",
+      "weather-app-1.png",
+      "weather-app-2.png",
     ],
     stack: [
       "HTML",
@@ -72,8 +81,9 @@ export const projects: Project[] = [
     description:
       "A platform for searching the current weather.",
     images: [
-      "weather-app.png",
-      "weather-forecast.png",
+      "weather-forecast-1.png",
+      "weather-forecast-2.png",
+      "weather-forecast-3.png",
     ],
     stack: [
       "HTML",

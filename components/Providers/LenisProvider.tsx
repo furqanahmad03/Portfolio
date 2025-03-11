@@ -10,7 +10,7 @@ export default function LenisProvider({ children }: Props) {
   return <ReactLenis root
   options={{
     smooth: true,
-    duration: 0.05,
+    duration: 0.07,
     easing: (t:any) => t,
     smoothTouch: false,
     direction: "vertical",
