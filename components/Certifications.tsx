@@ -45,19 +45,33 @@ const Certifications = () => {
 
             <ul className="list-disc pl-5">
               {certifications.map((cert, index) => (
-                <li key={index} className="text-[14px] text-gray-600 dark:text-gray-300 box-border">
-                  <a
-                    href={cert.credentialURL}
-                    target='_blank'
-                    className='cursor-pointer transition-transform hover:scale-[103%] py-1 ml-1 inline-block horizontal-underline-white'>
-                    <span className='inline-flex items-center gap-1'>
-                      <span>
-                        {cert.title} <span className='text-xs'>&nbsp;↗</span>
-                        {/* {cert.title}<TiArrowRight className='-rotate-45' size={15} /> */}
+                cert.credentialURL !== null ? (
+                  <li key={index} className="text-[14px] text-gray-600 dark:text-gray-300 box-border">
+                    <a
+                      href={cert.credentialURL}
+                      target='_blank'
+                      className='cursor-pointer transition-transform hover:scale-[103%] py-1 ml-1 inline-block horizontal-underline-white'>
+                      <span className='inline-flex items-center gap-1'>
+                        <span>
+                          {cert.title} <span className='text-xs'>&nbsp;↗</span>
+                          {/* {cert.title}<TiArrowRight className='-rotate-45' size={15} /> */}
+                        </span>
                       </span>
-                    </span>
-                  </a>
-                </li>
+                    </a>
+                  </li>
+                ) : (
+                  <li key={index} className="text-[14px] text-gray-600 dark:text-gray-300 box-border">
+                    <p
+                      className='cursor-pointer transition-transform hover:scale-[103%] py-1 ml-1 inline-block horizontal-underline-white'>
+                      <span className='inline-flex items-center gap-1'>
+                        <span>
+                          {cert.title}
+                          {/* {cert.title}<TiArrowRight className='-rotate-45' size={15} /> */}
+                        </span>
+                      </span>
+                    </p>
+                  </li>
+                )
               ))}
             </ul>
           </motion.div>

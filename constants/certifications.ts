@@ -53,6 +53,6 @@ export const certifications = [
     issuer: "YETP, Lahore",
     issueDate: "November 2023",
     credentialID: "",
-    credentialURL: "",
+    credentialURL: null,
   },
 ];
