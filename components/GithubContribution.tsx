@@ -8,7 +8,7 @@ export default function GithubContribution
   return (
     <SectionContainer>
         <div className='flex justify-center items-center mt-10 w-full'>
-          <GitHubCalendar username="furqanahmad03" fontSize={17} blockRadius={2} year={new Date().getFullYear()}/>
+          <GitHubCalendar username="furqanahmad03" fontSize={17} blockRadius={2} />
         </div>
     </SectionContainer>
   )
