@@ -35,9 +35,8 @@ export default function Hero(): ReactElement {
               <h1 className="text-5xl font-semibold sm:text-5xl md:text-6xl xl:text-[4rem] animate-fade-in-up">
                 Furqan Ahmad
               </h1>
-              <h2 className="text-3xl font-medium opacity-80 sm:text-5xl md:text-5xl xl:text-5xl xl:leading-[3.5rem] text-justify animate-fade-in-up">
-                Software developer, I love learning about new tech and using it to make good
-                software.
+              <h2 className="text-2xl font-medium opacity-80 sm:text-4xl xl:leading-10 text-justify animate-fade-in-up">
+                Software developer, I love learning about new tech and using it to build creative, efficient, and impactful software solutions.
               </h2>
               <Link
                 href="/about"

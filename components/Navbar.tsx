@@ -8,6 +8,8 @@ import Link from "next/link";
 import classNames from "classnames";
 import ThemeSwitch from "./ThemeSwitch";
 import MobileNav from "./MobileNav";
+import logo from "./../public/favicon.ico";
+import Image from "next/image";
 
 export default function Navbar() {
   const pathName = usePathname();
@@ -24,7 +26,14 @@ export default function Navbar() {
               })}
               aria-label="Logo"
             >
-              Furqan A.
+              {/* FA. */}
+              <Image
+                src={logo}
+                alt="Logo"
+                height={32}
+                width={32}
+                className="dark:border dark:border-gray-700 rounded-full"
+              />
             </Link>
           </div>
           <div className="flex items-center space-x-3 text-base leading-5">

@@ -3,7 +3,7 @@ import MainLayout from "@/components/layouts/MainLayout";
 
 export const metadata = {
   title: "Contact - Furqan Ahmad",
-  description: "Contact me- Furqan Ahmad",
+  description: "Contact me - Furqan Ahmad",
 };
 
 export default function page() {

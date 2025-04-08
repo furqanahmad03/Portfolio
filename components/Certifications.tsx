@@ -6,6 +6,7 @@ import { PiCertificateFill } from "react-icons/pi";
 import { TiArrowRight } from "react-icons/ti";
 import { useState } from "react";
 import Link from 'next/link';
+// modified
 
 const Certifications = () => {
 
