@@ -2,6 +2,35 @@ import { Project } from "@/Interface/projects";
 
 export const projects: Project[] = [
   {
+    slug: "ai-image-generator",
+    title: "MERN - AI Image Generator",
+    brief: "A full-stack web application built with the MERN stack that allows users to generate and explore AI-generated images based on text prompts. It features user-friendly search functionality, real-time loading indicators, and responsive UI. If the OpenAI API is unavailable, the app gracefully falls back to sample images for a smooth experience.",
+    description:
+      "A web application that generates images using OpenAI and displays all the generated images.",
+    images: [
+      "AIIG-1.png",
+      "AIIG-2.png",
+      "AIIG-3.png",
+      "AIIG-4.png",
+    ],
+    stack: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React.js",
+      "Tailwind",
+      "Material UI",
+      "Typescript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "OpenAI DALL·E API",
+      "Cloudinary",
+    ],
+    url: "",
+    repository: "https://github.com/furqanahmad03/MERN-AI-Image-Generation",
+  },
+  {
     slug: "issue-tracker",
     title: "Next.js Issue Tracker",
     brief: "Developed an issue-tracking application using Next.js and TypeScript, featuring user authentication and a dashboard with visual charts like pie and bar graphs. The app enables users to create, edit, assign, and categorize issues as OPEN, IN_PROGRESS, or CLOSED. It uses MySQL for data management, ensuring reliable storage and seamless data handling.",
@@ -18,6 +47,7 @@ export const projects: Project[] = [
       "HTML",
       "CSS",
       "Javascript",
+      "React.js",
       "Tailwind",
       "Radix.UI",
       "Typescript",
