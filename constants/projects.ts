@@ -2,6 +2,33 @@ import { Project } from "@/Interface/projects";
 
 export const projects: Project[] = [
   {
+    slug: "remix-electron-cli",
+    title: "Remix-Electron-Cli",
+    brief: "A cross-platform desktop app built with Electron and Remix (Vite) for the frontend and FastAPI (Python) for the backend. The app launches a local web server and opens a desktop window using Electron, serving the Remix UI while interacting with a Python API. Chakra UI and Recharts used for styling components and plotting graphs.",
+    description:
+      "A desktop app using Electron, Remix (Vite), and FastAPI that runs a local server and connects a React UI to a Python API.",
+    images: [
+      "remix-cli-1.png",
+      "remix-cli-2.png",
+      "remix-cli-3.png",
+      "remix-cli-4.png",
+      "remix-cli-5.png",
+      "remix-cli-6.png",
+    ],
+    stack: [
+      "Remix",
+      "Electron.js",
+      "React.js",
+      "Typescript",
+      "Tailwind",
+      "Chakra UI",
+      "Recharts",
+      "FastAPI"
+    ],
+    url: "",
+    repository: "https://github.com/furqanahmad03/remix-electron-cli",
+  },
+  {
     slug: "ai-image-generator",
     title: "MERN - AI Image Generator",
     brief: "A full-stack web application built with the MERN stack that allows users to generate and explore AI-generated images based on text prompts. It features user-friendly search functionality, real-time loading indicators, and responsive UI. If the OpenAI API is unavailable, the app gracefully falls back to sample images for a smooth experience.",
