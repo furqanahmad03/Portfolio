@@ -2,12 +2,13 @@ import { DiMongodb } from "react-icons/di";
 import { FaBootstrap, FaCss3Alt, FaGithub, FaGitSquare, FaHtml5, FaJava, FaJsSquare, FaLinux, FaPython, FaReact, FaWindows, FaTools } from "react-icons/fa";
 import { FaApple } from "react-icons/fa6";
 import { LiaNode } from "react-icons/lia";
-import { SiDocker, SiIntellijidea, SiMysql, SiOracle, SiPostman, SiRadixui, SiTailwindcss, SiTypescript, SiXcode, SiAndroidstudio, SiJupyter, SiFramework7, SiDotnet } from "react-icons/si";
+import { SiDocker, SiIntellijidea, SiMysql, SiOracle, SiPostman, SiRadixui, SiTailwindcss, SiTypescript, SiXcode, SiAndroidstudio, SiJupyter, SiFramework7, SiDotnet, SiChakraui, SiRemix, SiElectron, SiFastapi, SiMaterialformkdocs } from "react-icons/si";
 import { TbBrandCpp, TbBrandCSharp, TbBrandKotlin, TbBrandNextjs, TbBrandVscode, TbSql } from "react-icons/tb";
 import { VscAzure } from "react-icons/vsc";
 import { AiOutlineCode, AiOutlineDotNet } from "react-icons/ai";
 import { GrSystem, GrMysql } from "react-icons/gr";
 import { ImDatabase } from "react-icons/im";
+
 
 export const technologies = [
   {
@@ -29,16 +30,21 @@ export const technologies = [
   },
   {
     icon: <SiFramework7 />,
-    category: "Frameworks",
+    category: "Frameworks & Libraries",
     color: "#ff007f",
     items: [
       { name: "React", icon: <FaReact size={32} />, color: "#61DAFB" },
       { name: "Node.js", icon: <LiaNode size={32} />, color: "#339933" },
       { name: "Next.js", icon: <TbBrandNextjs size={32} />, color: "#00FF7F" },
+      { name: "Remix", icon: <SiRemix size={32} />, color: "#5f43e9" },
+      { name: "Electron.js", icon: <SiElectron size={32} />, color: "#0AE000" },
       { name: ".Net", icon: <SiDotnet size={32} />, color: "#0078D7" },
+      { name: "FastAPI", icon: <SiFastapi size={32} />, color: "#009688" },
       { name: "Bootstrap", icon: <FaBootstrap size={32} />, color: "#7952B3" },
       { name: "TailwindCSS", icon: <SiTailwindcss size={32} />, color: "#38B2AC" },
       { name: "Radix UI", icon: <SiRadixui size={32} />, color: "#8E44AD" },
+      { name: "Material UI", icon: <SiMaterialformkdocs size={32} />, color: "#5f43e9" },
+      { name: "Chakra UI", icon: <SiChakraui size={32} />, color: "#009747" },
     ],
   },
   {
