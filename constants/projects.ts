@@ -2,6 +2,30 @@ import { Project } from "@/Interface/projects";
 
 export const projects: Project[] = [
   {
+    slug: "mern-chat-app",
+    title: "MERN - ChatApp",
+    brief: "A real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js). The app features user authentication, private messaging, and socket-based communication for instant updates. Styled with Tailwind CSS and powered by Socket.IO for seamless real-time interaction across clients.",
+    description:
+      "A real-time chat application built with the MERN stack, featuring instant messaging, user auth, and socket-based communication.",
+    images: [
+      "mern-chat-app-1.png",
+      "mern-chat-app-2.png",
+      "mern-chat-app-3.png",
+      "mern-chat-app-4.png",
+      "mern-chat-app-5.png",
+    ],
+    stack: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Tailwind",
+      "Daisy UI",
+    ],
+    url: "https://chat-gxve.onrender.com/",
+    repository: "https://github.com/furqanahmad03/MERN-ChatApp",
+  },
+  {
     slug: "remix-electron-cli",
     title: "Remix-Electron-Cli",
     brief: "A cross-platform desktop app built with Electron and Remix (Vite) for the frontend and FastAPI (Python) for the backend. The app launches a local web server and opens a desktop window using Electron, serving the Remix UI while interacting with a Python API. Chakra UI and Recharts used for styling components and plotting graphs.",
